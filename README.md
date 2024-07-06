@@ -7,12 +7,12 @@ Demo [video](https://www.youtube.com/watch?v=tkpNVz1c3Ck).
 
 # Build
 First make sure heaps is installed via `haxelib git heaps https://github.com/HeapsIO/heaps.git`, make sure you have [nightly](https://github.com/HaxeFoundation/hashlink/releases) version of hashlink is installed, and make sure you `hlsdl`, `hlopenal`, and `hldx` you NEED these for nightly version of hashlink like this.
-/nhlsdl:
+hlsdl:
   `haxelib git hlsdl https://github.com/HaxeFoundation/hashlink master libs/sdl`
-/nhlopenal:
+hlopenal:
   `haxelib git hlopenal https://github.com/HaxeFoundation/hashlink master libs/openal`
-/nhldx:
+hldx:
   `haxelib git hldx https://github.com/HaxeFoundation/hashlink master libs/directx`
-/nYou will also need differ and will need to install it like `haxelib install differ`.
+You will also need differ and will need to install it like `haxelib install differ`.
 
-/nThen just do `hl game.hl` and then your done :)
+Then just do `hl game.hl` and then your done :)
